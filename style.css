@@ -2,6 +2,8 @@
 
 body {
     background: white;
+    width: auto;
+    height: 1080px;
 }
 
 .container{
@@ -19,7 +21,7 @@ body {
     height: 40px;
 }
 
-.holder{
+.video{
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -28,7 +30,7 @@ body {
 
 }
 
-.holder iframe{
+.video iframe{
     position: absolute;
     width: 100%;
     height: 100%;
