@@ -9,7 +9,7 @@ function decorateWhatsAppLink() {
     var encodedText = encodeURIComponent(text);
   
     //find the link
-    var $whatsApp = $('.whatsapp a');
+    var $whatsApp = ('.whatsapp a');
   
     //set the href attribute on the link
     $whatsApp.attr('href', url + encodedText);
